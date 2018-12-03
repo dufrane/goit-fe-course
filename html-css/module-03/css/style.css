@@ -1,0 +1,133 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Playfair Display", "Ubuntu";
+  color: #626262;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  width: 900px;
+  margin: 0 auto;
+}
+
+.page_header container {
+  margin: 0;
+  padding: 0;
+}
+
+.page_nav {
+  width: 900px;
+  padding-top: 78px;
+  margin-bottom: 105px;
+}
+
+.site_navigation {
+  width: 900px;
+  font-size: 14px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  text-align: center;
+}
+
+.site_navigation li {
+  display: inline-block;
+  margin-right: 100px;
+  font-size: 16px;
+  font-family: "Playfair Display";
+  text-transform: uppercase;
+
+  line-height: normal;
+}
+
+.site_navigation li:last-child {
+  margin-right: 0;
+}
+
+.site_navigation a {
+  text-decoration: none;
+  color: #626262;
+}
+.site_navigation a:hover,
+.site_navigation a:focus {
+  color: #03a9f4;
+}
+
+.page_posts {
+  font-size: 0px;
+  width: 900px;
+  margin: 0;
+}
+
+.page_article {
+  display: inline-block;
+  width: 420px;
+  margin-right: 60px;
+  padding: 0;
+  margin-bottom: 134px;
+}
+
+.page_article:nth-child(even) {
+  margin-right: 0;
+}
+
+.page_pargraph {
+  width: 420px;
+  display: inline-block;
+  font-size: 14px;
+  font-family: "Ubuntu";
+  font-weight: 100;
+  margin: 0;
+  padding-top: 30px;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  color: #b4ad9e;
+}
+
+.page_head2 {
+  margin: 0;
+  margin-bottom: 40px;
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: 100;
+  line-height: normal;
+}
+
+p {
+  font-size: 14px;
+  font-family: "Playfair Display";
+  margin: 0;
+}
+
+button {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  text-decoration: none;
+  background-color: #ffffff;
+  font-family: "Playfair Display";
+  font-size: 20px;
+  padding: 20px 35px;
+  color: #626262;
+  font-weight: 100;
+  margin-bottom: 70px;
+  cursor: pointer;
+}

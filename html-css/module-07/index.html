@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Golden</title>
+  </head>
+
+  <body>
+    <header class="page_header">
+      <nav class="navigation container">
+        <h1 class="logo_style fl">golden <a class="logo" href="#"></a></h1>
+        <ul class="navigation__list uppercase">
+          <li class="navigation__list_item">
+            <a class="navigation__link" href="#">home</a>
+          </li>
+          <li class="navigation__list_item">
+            <a class="navigation__link" href="#">services</a>
+          </li>
+          <li class="navigation__list_item">
+            <a class="navigation__link" href="#">portfolio</a>
+          </li>
+          <li class="navigation__list_item">
+            <a class="navigation__link" href="#">about</a>
+          </li>
+          <li class="navigation__list_item">
+            <a class="navigation__link" href="#">contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <h2 class="services title uppercase">services</h2>
+      <p class="services__title slogan fl">
+        proin iaculis purus consequat sem cure.
+      </p>
+      <div class="services container">
+        <ul class="services__list_block">
+          <li class="services__list_items">
+            <article class="service__list_article">
+              <img
+                class="services__list_img"
+                src="img/1.png"
+                alt="yellow bascket means e-commerce"
+              />
+              <h3 class="service_list__items_title capitalize">e-commerce</h3>
+              <p class="service_item_description fl regular_text">
+                proin iaculis purus consequat sem cure digni ssim. Donec
+                porttitora entum suscipit aenean rhoncus posuere odio in
+                tincidunt.
+              </p>
+            </article>
+          </li>
+
+          <li class="services__list_items">
+            <article class="service__list_article">
+              <img
+                class="services__list_img"
+                src="img/2.png"
+                alt="yellow laptop means responsive web"
+              />
+              <h3 class="service_list__items_title   capitalize">
+                responsive web
+              </h3>
+              <p class="services_item_description fl regular_text">
+                proin iaculis purus consequat sem cure digni ssim. Donec
+                porttitora entum suscipit aenean rhoncus posuere odio in
+                tincidunt.
+              </p>
+            </article>
+          </li>
+
+          <li class="services__list_items">
+            <article class="service__list_article">
+              <img
+                class="services__list_img"
+                src="img/3.png"
+                alt="yellow padlock means web security"
+              />
+              <h3 class="service_list__items_title capitalize">web security</h3>
+              <p class="services_item_description fl regular_text">
+                roin iaculis purus consequat sem cure digni ssim. Donec
+                porttitora entum suscipit aenean rhoncus posuere odio in
+                tincidunt.
+              </p>
+            </article>
+          </li>
+        </ul>
+      </div>
+
+      <section class="contact_us_section wrapper">
+        <div class="contact_us_container container">
+          <h2 class="contact_us_title title uppercase">contact us</h2>
+          <p class="contact_us_slogan slogan services__title_slogan fl">
+            proin iaculis purus consequat sem cure.
+          </p>
+          <form class="contact_us_block">
+            <ul class="contact_us">
+              <li class="contact_us_input">
+                <input
+                  class="contact_us_input__item width uppercase required
+                    "
+                  type="text"
+                  id="input_name"
+                  name="name"
+                  placeholder="your name *"
+                />
+              </li>
+              <li class="contact_us_input">
+                <input
+                  class="contact_us_input__item width uppercase required
+                    "
+                  name="email"
+                  id="input_email"
+                  type="email"
+                  placeholder="your e-mail *"
+                />
+              </li>
+              <li class="contact_us_input">
+                <input
+                  class="contact_us_input__item width uppercase"
+                  type="text"
+                  id="input_subject"
+                  name="subject"
+                  placeholder="subject"
+                />
+              </li>
+            </ul>
+
+            <textarea
+              class="contact_us_input__item message uppercase required"
+              name="message"
+              rows="5"
+              cols="45"
+              placeholder="your e-mail *"
+            ></textarea>
+
+            <div class="button">
+              <input
+                class="send_message_button uppercase"
+                type="submit"
+                id="send_message_button"
+                value="send message"
+              />
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
